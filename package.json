@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
